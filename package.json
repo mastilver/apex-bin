@@ -1,0 +1,48 @@
+{
+  "name": "apex-bin",
+  "version": "0.5.1",
+  "description": "Binary wrapper for apex",
+  "license": "MIT",
+  "repository": "mastilver/apex-bin",
+  "author": {
+    "name": "Thomas Sileghem",
+    "email": "tsileghem@neworbit.co.uk",
+    "url": "mastilver.com"
+  },
+  "bin": {
+    "apex": "cli.js"
+  },
+  "scripts": {
+    "test": "npm run postinstall && xo && ava",
+    "postinstall": "node lib/install.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "lib"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "bin",
+    "binary",
+    "wrapper"
+  ],
+  "dependencies": {
+    "bin-wrapper": "^2.0.0",
+    "logalot": "^2.0.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "bin-check": "^3.0.0",
+    "xo": "*"
+  },
+  "xo": {
+    "ignores": [
+      "test.js"
+    ]
+  }
+}
