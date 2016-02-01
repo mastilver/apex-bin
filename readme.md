@@ -1,6 +1,6 @@
 # apex-bin [![Build Status](https://travis-ci.org/mastilver/apex-bin.svg?branch=master)](https://travis-ci.org/mastilver/apex-bin)
 
-> Binary wrapper for apex
+> Binary wrapper for [apex](apex.run)
 
 
 ## CLI
@@ -24,7 +24,7 @@ $ npm install --save apex-bin
 const execFile = require('child_process').execFile;
 const apex = require('apex-bin');
 
-execFile(apex, ['--version'], (err, stdout) => {
+execFile(apex, ['version'], (err, stdout) => {
 	console.log(stdout);
 });
 ```
