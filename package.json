@@ -1,6 +1,6 @@
 {
   "name": "apex-bin",
-  "version": "5.0.2-1",
+  "version": "0.6.1",
   "description": "Binary wrapper for apex",
   "license": "MIT",
   "repository": "mastilver/apex-bin",
