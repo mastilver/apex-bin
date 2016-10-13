@@ -12,6 +12,9 @@
   "bin": {
     "apex": "cli.js"
   },
+  "engines": {
+    "node": ">=4"
+  },
   "scripts": {
     "test": "npm run postinstall && xo && ava",
     "postinstall": "node lib/install.js"
