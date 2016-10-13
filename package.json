@@ -1,6 +1,6 @@
 {
   "name": "apex-bin",
-  "version": "0.6.1",
+  "version": "0.10.3",
   "description": "Binary wrapper for apex",
   "license": "MIT",
   "repository": "mastilver/apex-bin",
@@ -13,14 +13,11 @@
     "apex": "cli.js"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=0.10.0"
   },
   "scripts": {
     "test": "npm run postinstall && xo && ava",
     "postinstall": "node lib/install.js"
-  },
-  "engines": {
-    "node": ">=0.10.0"
   },
   "files": [
     "index.js",
@@ -48,7 +45,10 @@
       "test.js"
     ],
     "rules": {
-      "unicorn/filename-case": ["warn", "camelCase"]
+      "unicorn/filename-case": [
+        "warn",
+        "camelCase"
+      ]
     }
   }
 }
