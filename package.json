@@ -36,7 +36,7 @@
     "logalot": "^2.0.0"
   },
   "devDependencies": {
-    "ava": "^0.16.0",
+    "ava": "^0.17.0",
     "bin-check": "^3.0.0",
     "xo": "^0.17.0"
   },
