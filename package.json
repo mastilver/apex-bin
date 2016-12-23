@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "ava": "^0.17.0",
-    "bin-check": "^3.0.0",
+    "bin-check": "^4.0.1",
     "xo": "^0.17.0"
   },
   "xo": {
